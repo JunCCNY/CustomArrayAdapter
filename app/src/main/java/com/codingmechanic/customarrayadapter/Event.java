@@ -10,13 +10,18 @@ public class Event {
     private int capacity;
     private String location;
     private String food;
+    private int bgImage;
 
-    public Event(String name, String location, String food, String date, int capacity) {
+
+
+    public Event(String name, String location, String food, String date, int capacity, int bgImage) {
         this.name = name;
         this.location = location;
         this.food = food;
         this.date = date;
         this.capacity = capacity;
+        this.bgImage = bgImage;
+
     }
 
     public int getCapacity() {
@@ -37,5 +42,9 @@ public class Event {
 
     public String getName() {
         return name;
+    }
+
+    public int getBgImage() {
+        return bgImage;
     }
 }

@@ -9,14 +9,14 @@
     <ImageView
         android:id="@+id/bg_event"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:scaleType="center"/>
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"/>
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/gradient" />
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="16dp"
@@ -53,12 +53,9 @@
             android:text="@string/app_name"/>
     </LinearLayout>
 
-    <!--<ImageButtonButton-->
-        <!--android:layout_width="wrap_content"-->
-        <!--android:layout_height="wrap_content"-->
-        <!--android:id="@+id/open_map"-->
-        <!--android:layout_alignRight="@+id/linearLayout"-->
-        <!--/>-->
-
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"/>
 
 </FrameLayout>

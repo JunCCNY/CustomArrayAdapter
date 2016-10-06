@@ -35,7 +35,7 @@ public class EventAdapter extends ArrayAdapter<Event> {
         name.setText(event.getName());
         location.setText(event.getLocation());
         date.setText(event.getDate());
-        bg.setBackgroundResource(event.getBgImage());
+        bg.setImageResource(event.getBgImage());
         return convertView;
         //return super.getView(position, convertView, parent);
     }

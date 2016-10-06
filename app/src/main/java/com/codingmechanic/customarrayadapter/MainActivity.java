@@ -16,25 +16,33 @@ public class MainActivity extends AppCompatActivity {
 
         ArrayList<Event> events = new ArrayList<>();
 
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100));
-        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100));
-        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100));
-
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
+        events.add(new Event("Apple", "001 Heaven Ave", "apple", "9-11-2016", 100, R.drawable.pea));
+        events.add(new Event("MicroSoft", "002 Heaven Ave", "Rice", "9-11-2016", 100, R.drawable.store_bananas));
+        events.add(new Event("Google", "000 Heaven Ave", "Dessert", "9-11-2016", 100, R.drawable.potatoes));
 
         EventAdapter arrayAdapter = new EventAdapter(this, events);
 
